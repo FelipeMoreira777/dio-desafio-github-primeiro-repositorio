@@ -1,31 +1,30 @@
 # Desafio de Projeto sobre Git/GitHub da DIO
 Repositório criado para o Desafio de Projeto.
-
-Sistema de locadora de filme para analisar a idade e se o cliente é maior ou menor de 18anos.
 	
 
 	programa
 	{
+		
+		funcao inicio()
+		{
+			real janeiro,fevereiro,marco,abril,total,media,bonus
+			cadeia funcionario
+			
+			escreva("Digite o nome do funcionario:")
+			leia(funcionario)
+			escreva("Digite o valor da venda:")
+			leia(janeiro)
+			escreva("Digite o valor da venda:")
+			leia(fevereiro)
+			escreva("Digite o valor da venda:")
+			leia(marco)
+			escreva("Digite o valor da venda:")
+			leia(abril)
 	
-	 funcao inicio()
-	 {
-		caracter nome,filme
-		inteiro idade 
-		cadeia cliente
+			total = (janeiro+fevereiro+marco+abril)
+			media = (total)/4
+			bonus = (media/10)
 	
-		escreva ("Digite o seu nome: ")
-		leia(nome)
-		escreva ("Digite o nome do filme: ")
-		leia(filme)
-		escreva ("Digite a sua idade: ")
-		leia(idade)
-	
-		se (idade>=18) {
-			escreva ("Você pode locar essa filme")
+			escreva("O funcionario: " + funcionario + " Seu valor total de vendas é: " + total + " E obteve uma media " + media + " O seu bonus é no valor de: " + bonus + " Parabens")
 		}
-	
-		senao { 
-		     escreva ("Você não pode locar esse filme escolha outro")
-		}     
-	  }
 	}
