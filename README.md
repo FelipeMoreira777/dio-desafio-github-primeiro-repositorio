@@ -1,7 +1,7 @@
 # Desafio de Projeto sobre Git/GitHub da DIO
 Repositório criado para o Desafio de Projeto.
 
-O programa soma venda do funcionario dos ultimos 4 meses, faz a media de venda e informa o bonus que ele ira ganhar.
+O programa soma venda do funcionario dos ultimos 4 meses, faz a media de venda e informa o valor bonus que ele ira ganhar.
 	
 
 	programa
